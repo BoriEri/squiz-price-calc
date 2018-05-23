@@ -41,7 +41,7 @@ studentsChangedHandler = (event) => {
 }
 
 calculateTotalAmount = () => { 
- return parseInt(this.state.studysets, 10)*0.1052 + parseInt(this.state.students, 10)*0.08*12; 
+ return parseInt(this.state.studysets, 10)*0.1452 + parseInt(this.state.students, 10)*0.08*12; 
 } 
 
 render() {
